@@ -1,0 +1,26 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+assets/*.csv
+assets/*.xlsx
+logs/*.log
+reports/output/*.pdf
+analytics/modelos_guardados/*.pkl
+
+# Archivos temporales del sistema (Muy importante)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración de VS Code (opcional, pero recomendado)
+.vscode/
+
+# Archivos temporales de Python (completando lo que ya tienes)
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# Jupyter Notebook checkpoints (si usas notebooks en VS Code)
+.ipynb_checkpoints
